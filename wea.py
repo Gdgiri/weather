@@ -5,6 +5,8 @@ import json
 
 root=Tk()
 root.title("Weather Conditions")
+root.geometry("900x500+300+200")
+root.resizable(False, False)
 
 myfont= font.Font(family='Helvetica',size=20,weight='bold')
 myfontbig= font.Font(family='Helvetica',size=60,weight='bold')
